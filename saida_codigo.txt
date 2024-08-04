@@ -1,0 +1,21 @@
+Código do programa fonte: while i < 100 do i = i + j;
+
+Tokens:
+token      identificação   tamanho    posição (lin, col)
+while      palavra reservada 5          (0, 0)
+i          identificador   1          (0, 6)
+<          operador        1          (0, 8)
+100        constante       3          (0, 10)
+do         palavra reservada 2          (0, 14)
+i          identificador   1          (0, 17)
+=          operador        1          (0, 19)
+i          identificador   1          (0, 21)
++          operador        1          (0, 23)
+j          identificador   1          (0, 25)
+;          terminador      1          (0, 27)
+
+Tabela de símbolos:
+índice     símbolo   
+1          i         
+2          100       
+3          j         
